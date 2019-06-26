@@ -14,6 +14,7 @@ As Kafka topics are not created automatically by default, this application requi
 When the application runs successfully, following output is logged on to console (along with spring logs):
 
 ### Producing Messages
+`.\bin\windows\kafka-console-producer.bat --broker-list 127.0.0.1:9092 --topic soundcomand`
 
 ### Consuming Messages
 
